@@ -1,0 +1,72 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+        padding: 20px;
+        }
+
+        .headleft{
+            justify-content: center;
+        }
+
+        .navpara{
+            padding: 10px;
+        }
+
+        .logo{
+            padding: 10px;
+        }
+
+        .navpara h3{
+            font-size:15px ;
+        }
+        .navpara p{
+            font-size: 12px;
+        }
+
+        .navsearch button{
+            padding: 10px;
+        }
+
+        .headright{
+            position: fixed;
+            bottom: 0;
+            justify-content: center;
+            margin-right: 0px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .bannersection{
+            display: none;
+        }
+
+        .categorysection{
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        
+        .carditems{
+            flex-basis: 25%;
+        }
+
+        .items{
+            flex-basis: 40%;
+            padding: 10px;
+            
+        }
+
+        .productcard-section{
+            padding: 20px;
+            padding-bottom: 0px;
+        }
+
+        
+        
+        .UsefulLinks ul{
+            padding: 20px;
+
+        }
+}

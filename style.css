@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #ccc;    
+    border-bottom: 1px solid #ccc;    
+    
+}
+
+
+.headleft{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    border-right:1px solid #ccc;
+    padding: 20px;
+    
+}
+
+.navpara{
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.navpara h3{
+    font-weight: 800;
+}
+
+
+
+.navsearch{
+    flex-grow: 1;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #F8F8F8;
+    background-color:#F8F8F8 ;    
+    
+}
+.navsearch button{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    
+} 
+.navsearch input{
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+
+}
+.navsearch input:focus{
+    outline: none;
+}
+.headright{
+    display: flex;
+    gap: 40px;
+    margin: 0px 40px;
+}
+.headright button{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+
+}
+
+.headright button:last-child{
+    background-color: rgb(12, 131, 31);
+    color: white;
+    padding: 18px 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+.headright button:hover{
+    cursor: pointer;
+}
+
+.bannersection{
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+.bannersection img{
+    width: 100%;
+}
+
+.categorysection{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+}
+
+.categoryitems{
+    flex-basis: 27%;
+    padding: 10px;
+}
+
+.categoryitems img{
+    width: 100%;
+
+}
+
+.cardsection{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.carditems{
+    flex-basis: 10%;
+}
+.carditems img{
+    width: 100%;
+}
+
+
+
+
+.productcard-section{
+    max-width: 1280px;
+    margin: auto;
+}
+.cardsection-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardheading{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    margin-top: 25px;
+    padding-bottom: 8px;
+}
+.cardheading a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(12, 131, 31);    
+}
+.card-para h3{
+    font-size:14px ;
+}
+
+.card-para p{
+    color: #ccc;
+}
+
+.items{
+    border: 1px solid  #F6F6F6;
+    box-shadow: 0px 0px 1px 2px #F6F6F6 ;
+    border-radius: 8px ;
+    width: 180px;
+    text-align: center;
+    margin: 15px;
+    background-color: #FFFFFE;
+
+
+    
+}
+
+.items img{
+    width: 80%;
+}
+
+.items span{
+    font-size: 12px;
+    margin: 10px ;
+    text-align: left;
+    background-color: #F8F8F8;
+    display: table;
+}
+
+.card-para {
+    margin : 10px;
+    text-align: left;
+}
+.card-para p{
+    font-size: 12px;
+    margin-top: 8px;
+}
+.cardbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.cardbtn span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cardbtn button{
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1px solid  rgb(12, 131, 31);
+    color: rgb(12, 131, 31);
+    background-color: #F7FFF9;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+footer{
+    padding:40px 0px 0px 0px ;
+}
+
+.main-footer{
+    max-width: 1280px;
+    margin: auto;
+}
+.main-footer-row1{
+    width: 100%;
+    display: flex;
+}
+
+.footer-row1-left{
+    flex-basis: 30%;
+
+}
+
+.footer-row1-right{
+    flex-basis: 70%;
+}
+
+.UsefulLinks{
+    display: flex;
+    gap: 40px;
+    /* padding: 0px 25px; */
+}
+
+.footer-row1-left h3{
+    padding-bottom: 20px;
+}
+.UsefulLinks ul{
+    flex-basis: 33%;
+    flex-direction: column;
+    list-style: none;
+}
+.UsefulLinks ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: #ccc;
+    text-transform: capitalize;
+    
+}
+
+.footer-row1-right-ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    margin-top: 20px ;
+}
+.footer-row1-right li{
+    flex-basis: 30%;
+    
+}
+
+.footer-row1-right li a{
+    text-decoration: none;
+color: rgb(102, 102, 102);
+}
+
+.footer-right-head{
+    display: flex;
+    gap: 20px;
+}
+.footer-right-head a{
+    text-decoration: none;
+    color:rgb(12, 131, 31) ;
+
+}
